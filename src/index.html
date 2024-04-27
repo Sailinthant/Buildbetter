@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
+    <link rel="stylesheet" href="flow">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
     <link rel="stylesheet" href="../public/style.css">
 </head>
 
-<body> 
-    <div class="bg-white">
-        <img src="../public/images/brick-wall-painted-white_1194-7526.avif" alt="" class="w-full absolute h-5/6 ">
+<body class="overflow-x-hidden">
+    <!-- navbar -->
+    <div class="border-solid">
+        <img src="../public/images/banner-bg1.png" alt="" class="w-full absolute h-5/6 ">
             <div class="h-12  justify-between items-center flex flex-row  mx-auto divide-solid  relative">
                 <nav> 
                     <div class="m-3 w-3">
@@ -38,16 +42,14 @@
                     
                 </div>
                 <div class=" flex flex-col items-center justify-center">
-                    <div class="flex items-center justify-center ">
-                        <img src="../public/images//1272577.jpg" alt="" class="relative" >
-                    <!-- </div>
-                    <div> -->
+                    <div class="flex items-center justify-center m-20 p-32">
                         <button class="rounded-md bg-yellow-500  text-center px-8 py-4 m-5 text-white hover:bg-black absolute  bottom-0"><a href="#">Contact</a></button>
                     </div>
                 </div>
             </div>
     </div>
-    <div class=" m-10 p-10 mb-5 pb-3 h-fit">
+    <!-- Service -->
+    <div class="border-solid m-10 p-10 mb-5 pb-3 h-fit">
         <div class="justify-center items-center text-center  ">
             <span class="font-semibold p-3 m-3 mt-4 text-3xl ">OUR SERVICES</span>
             <p class="p-5 m-8 pt-3 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ratione molestiae quia, repellendus, veritatis excepturi quas rerum molestias ab esse</p>
@@ -79,11 +81,12 @@
             </ul>
         </div>
     </div>
-    <div class="bg-yellow-600 flex h-fit ">
+    <!-- About Us -->
+    <div class="bg-yellow-600 flex border-solid h-fit ">
         <ul class=" w-1/2 h-96 p-10 m-10   text-white ">
             <li>
                 <span class="m-20  ml-0 text-3xl  p-10 pl-0 ">About Us</span>
-                <p class="p-5 m-10 pl-0 ml-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iure, consequatur, vero tempora ipsum repudiandae repellat dignissimos est quos aut magnam omnis distinctio? Nam id aliquid, officiis ad consequuntur tempore</p>
+                <p class="p-5 m-10 pl-0 ml-0   lg:flex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iure, consequatur, vero tempora ipsum repudiandae repellat dignissimos est quos aut magnam omnis distinctio? Nam id aliquid, officiis ad consequuntur tempore</p>
                 <button class="bg-black text-white hover:bg-white hover:text-black rounded-md p-3 m-5 mx-0">Read More</button>
             </li>
         </ul>
@@ -91,6 +94,7 @@
             <li><img src="../public/images/img-1.png" alt=""></li>
         </ul>
     </div>
+    <!-- Function -->
     <div class="">
         <div class="text-center items-center justify-center">
             <div class="text-4xl  p-3 mt-0 m-4">Our Furniture</div>
@@ -98,19 +102,20 @@
         </div>
         <div class="flex items-center justify-center p-14 m-5">
             <ul class=" w-2/3 p-5 m-3 ">
-                <!-- need to change     -->
+                <!-- need to change  -->  
                 <li><img src="../public/images/img-2.png" class="m-3 " alt="img-1"></li>
                 <p class="text-3xl text-yellow-300 p-3 m-4 pl-0 ">Lorem sit amet consectetur adipisicing elit?</p>
                 <p class="p-3 m-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. accusamus alias? Exercitationem at sunt amet officiis quaerat quisquam cumque illum dolor vero dolore voluptas dignissimos, tenetur recusandae totam dolores ducimus?</p>
             </ul>
             <ul class=" w-2/3 p-5 m-3 ">
-                 <!-- need to change     -->
+                 <!-- need to change -->
                 <li><img src="../public/images/img-3.png" class="m-3" alt=""></li>
                 <p class="text-3xl text-yellow-300 p-3 m-4 pl-0 ">Lorem sit amet consectetur adipisicing elit?</p>
                 <p class="p-3 m-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. accusamus alias? Exercitationem at sunt amet officiis quaerat quisquam cumque illum dolor vero dolore voluptas dignissimos, tenetur recusandae totam dolores ducimus?</p>
             </ul>
         </div>
     </div>
+    <!-- lorem -->
     <div >
         <img src="../public/images/contact-bg.png" alt="" class="absolute w-full h-96 ">
         <div class="items-center justify-center text-center  relative text-white p-8 m-3">
@@ -124,98 +129,223 @@
             <button class="bg-black p-3 m-3 rounded-md text-white hover:bg-white hover:text-black">Eat Me.....</button>
         </div>
     </div>
+    <!-- carosal -->
     <div>
         <div class="justify-center items-center text-center">
-           <div class="p-3 m-3 text-4xl"> Our Service</div>
+           <div class="p-3 m-3 text-4xl "> Our Service</div>
            <div>Lorem ipsum dolor sit amet, consectetur adipisicing </div>
         </div>
-            <!-- <div id="data-carousal" class="relative w-full" data-carousal="slide">
-                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-                    <div class=" items-center justify-center ">
-                        <div class="hover:bg-gray-200  items-center justify-center item duration-700 ease-in-out flex " data-carousal-item>
-                            <div class="flex w-full absolute  translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-                                <div><img src="../public/images/img-4.png" alt="" class="m-3 p-3 hover:text-yellow-400"></div>
-                                <div><img src="../public/images/img-5.png" alt="" class="m-3 p-3 hover:text-yellow-400"></div>
-                                <div><img src="../public/images/img-6.png" alt="" class="m-3 p-3 hover:text-yellow-400"></div>
-                            </div>
+       <div class="items-center justify-between overflow-hidden ">
+            <div  id="default-carousel" class="relative " data-carousel="slide" >
+                <div class="   rounded-lg md:h-screen">
+                    <div class="hidden duration-700 ease-in-out  " data-carousel-item>
+                        <div class=" p-10 mb-10 justify-center items-center text-center flex  ease-in-out  hover:bg-gray-300">
+                            <img src="../public/images/img-4.png" alt="" class="p-4  hover:bg-yellow-400 " >
+                            <img src="../public/images/img-5.png" alt="" class="p-4  hover:bg-yellow-400 " >
+                            <img src="../public/images/img-6.png" alt="" class="p-4  hover:bg-yellow-400 " >
                         </div>
                     </div>
-                    <div class=" items-center justify-center ">
-                        <div class="hover:bg-gray-200  items-center justify-center item duration-700 ease-in-out flex " data-carousal-item>
-                            <div class="flex w-full absolute  translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-                                <div><img src="../public/images/img-4.png" alt="" class="m-3 p-3 hover:text-yellow-400"></div>
-                                <div><img src="../public/images/img-5.png" alt="" class="m-3 p-3 hover:text-yellow-400"></div>
-                                <div><img src="../public/images/img-6.png" alt="" class="m-3 p-3 hover:text-yellow-400"></div>
-                            </div>
+                    <div class="hidden duration-700 ease-in-out  " data-carousel-item>
+                        <div class=" p-10 mb-10 justify-center items-center text-center flex  ease-in-out  hover:bg-gray-300">
+                            <img src="../public/images/img-4.png" alt="" class="p-4  hover:bg-yellow-400 " >
+                            <img src="../public/images/img-5.png" alt="" class="p-4  hover:bg-yellow-400 " >
+                            <img src="../public/images/img-6.png" alt="" class="p-4  hover:bg-yellow-400 " >
                         </div>
                     </div>
-                    <div class=" items-center justify-center ">
-                        <div class="hover:bg-gray-200  items-center justify-center item duration-700 ease-in-out flex " data-carousal-item>
-                            <div class="flex w-full absolute  translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
-                                <div><img src="../public/images/img-4.png" alt="" class="m-3 p-3 hover:text-yellow-400"></div>
-                                <div><img src="../public/images/img-5.png" alt="" class="m-3 p-3 hover:text-yellow-400"></div>
-                                <div><img src="../public/images/img-6.png" alt="" class="m-3 p-3 hover:text-yellow-400"></div>
-                            </div>
+                    <div class="hidden duration-700 ease-in-out  " data-carousel-item>
+                        <div class=" p-10 mb-10 justify-center items-center text-center flex  ease-in-out  hover:bg-gray-300">
+                            <img src="../public/images/img-4.png" alt="" class="p-4  hover:bg-yellow-400 " >
+                            <img src="../public/images/img-5.png" alt="" class="p-4  hover:bg-yellow-400 " >
+                            <img src="../public/images/img-6.png" alt="" class="p-4  hover:bg-yellow-400 " >
                         </div>
                     </div>
-                </div> 
-            </div> -->
+                </div>
             
-
-<!-- <div id="indicators-carousel" class="relative w-full" data-carousel="static">
-     Carousel wrapper
-    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-         Item 1 
-        <div class=" duration-700 ease-in-out" data-carousel-item="active">
-            <img src="../public/images/11c385b2e1ccfe7db112d10ee10822e5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        Item 2
-        <div class=" duration-700 ease-in-out" data-carousel-item>
-            <img src="../public/images/1272577.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-         Item 3
-        <div class=" duration-700 ease-in-out" data-carousel-item>
-            <img src="../public/images/11c385b2e1ccfe7db112d10ee10822e5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        Item 4
-        <div class=" duration-700 ease-in-out" data-carousel-item>
-            <img src="../public/images/banner-bg1.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-
-        <div class=" duration-700 ease-in-out" data-carousel-item>
-            <img src="../public/images/11c385b2e1ccfe7db112d10ee10822e5.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
+                <!-- <div class="controls justify-between items-center  float-start z-50 flex flex-wrap  grid-flow-row absolute  gap-3 ">
+                    <button class="previous h-full  w-" p-10 mb-10 m-5   bg-black justify-between  text-white items-center " data-carousel-prev> 
+                        &gt;
+                    </button>
+                    <button class="next     h-full  w- p-5 m-5  bg-black justify-between  text-white items-center  " data-carousel-next>
+                        &gt;                
+                    </button>
+                </div> -->
+            </div>
+       </div>
     </div>
-     Slider indicators
-    <div class="absolute z-30 flex -translate-x-1/2 space-x-3 rtl:space-x-reverse bottom-5 left-1/2">
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-    </div>
-     Slider controls 
-    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-            </svg>
-            <span class="sr-only">Previous</span>
-        </span>
-    </button>
-    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-            </svg>
-            <span class="sr-only">Next</span>
-        </span>
-    </button>
-</div> -->
+    <!-- carosal -->
+    <div>
+        <div class="items-center justify-between overflow-hidden ">
+            <div  id="default-carousel" class="relative w-full h-fit " data-carousel="slide" >
+                <div class=" mb-10 pb-10 rounded-lg md:h-screen">
+
+                    <!-- 1 -->
+                    <div class="hidden duration-700 ease-in-out  " data-carousel-item>
+                        <div class="items-center justify-center text-center">
+                            <div class=" p-5 text-4xl">What is say our customer?</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. <p> Optio enim delectus temporibus molestias non?</p></div>
+                        </div>
+                        <div class="m-4 p-4">
+                            <div class="border-black border-2 w-2/3 h-40  m-2 p-2">
+                                <div class="flex">
+                                    <img src="../public/images/img-7.png" alt="" class=" m-4 p-4  ">
+                                    <div>
+                                        <div class=" text-2xl">Lorem</div>
+                                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat voluptat</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-black border-2 w-2/3 h-40 float-end m-2 p-2  ">
+                                <div class="flex">
+                                    <img src="../public/images/img-8.png" alt="" class=" m-4 p-4  ">
+                                    <div>
+                                        <div class=" text-2xl">Lorem</div>
+                                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat voluptat</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="hidden duration-700 ease-in-out  " data-carousel-item>
+                        <div class="items-center justify-center text-center">
+                            <div class=" p-5 text-4xl">What is say our customer?</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. <p> Optio enim delectus temporibus molestias non?</p></div>
+                        </div>
+                        <div class="m-4 p-4">
+                            <div class="border-black border-2 w-2/3 h-40  m-2 p-2">
+                                <div class="flex">
+                                    <img src="../public/images/img-7.png" alt="" class=" m-4 p-4  ">
+                                    <div>
+                                        <div class=" text-2xl">Lorem</div>
+                                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat voluptat</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-black border-2 w-2/3 h-40 float-end m-2 p-2  ">
+                                <div class="flex">
+                                    <img src="../public/images/img-8.png" alt="" class=" m-4 p-4  ">
+                                    <div>
+                                        <div class=" text-2xl">Lorem</div>
+                                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat voluptat</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="hidden duration-700 ease-in-out  " data-carousel-item>
+                        <div class="items-center justify-center text-center">
+                            <div class=" p-5 text-4xl">What is say our customer?</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. <p> Optio enim delectus temporibus molestias non?</p></div>
+                        </div>
+                        <div class="m-4 p-4">
+                            <div class="border-black border-2 w-2/3 h-40  m-2 p-2">
+                                <div class="flex">
+                                    <img src="../public/images/img-7.png" alt="" class=" m-4 p-4  ">
+                                    <div>
+                                        <div class=" text-2xl">Lorem</div>
+                                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat voluptat</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-black border-2 w-2/3 h-40 float-end m-2 p-2  ">
+                                <div class="flex">
+                                    <img src="../public/images/img-8.png" alt="" class=" m-4 p-4  ">
+                                    <div>
+                                        <div class=" text-2xl">Lorem</div>
+                                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat voluptat</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="hidden duration-700 ease-in-out  " data-carousel-item>
+                        <div class="items-center justify-center text-center">
+                            <div class=" p-5 text-4xl">What is say our customer?</div>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. <p> Optio enim delectus temporibus molestias non?</p></div>
+                        </div>
+                        <div class="m-4 p-4">
+                            <div class="border-black border-2 w-2/3 h-40  m-2 p-2">
+                                <div class="flex">
+                                    <img src="../public/images/img-7.png" alt="" class=" m-4 p-4  ">
+                                    <div>
+                                        <div class=" text-2xl">Lorem</div>
+                                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat voluptat</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-black border-2 w-2/3 h-40 float-end m-2 p-2  ">
+                                <div class="flex">
+                                    <img src="../public/images/img-8.png" alt="" class=" m-4 p-4  ">
+                                    <div>
+                                        <div class=" text-2xl">Lorem</div>
+                                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat voluptat</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact? -->
+        <div class="mb-0 pb-0 lock  ">
+            <img class="absolute h-5/6 w-full md:w-fit lg:w-full" src="../public/images/contact-bg.png" alt="" >
+            <div class="relative mb-0 p-5 mr-0 ">
+                <div class="text-white text-2xl  ">CONTACT US</div>
+                <div class="flex w-full  ">
+                    <div class="w-1/2  p-4" >
+                        <input type="name" name=""      id="" class="rounded-md m-2 p-2 w-full   " placeholder="Name">
+                        <input type="email" name=""     id="" class="rounded-md m-2 p-2 w-full   " placeholder="Email">
+                        <input type="ph number" name="" id="" class="rounded-md m-2 p-2 w-full   " placeholder="Ph Number ">
+                        <textarea type="Massage" name=""   id="" class="rounded-md m-2 p-2 w-full   " placeholder="Massage"></textarea>
+
+                    </div>
+                    <div><img src="../public/images/img-4.png" class="w-96 " alt=""></div>
+                </div>
+                <div class="mt-4">
+                    <div class="hover:bg-white hover:text-gray-400 text-gray-500 w-32 h-12 m-3 p-2 text-center border border-white">SEND</div>
+                </div>
+            </div>
+        </div>
+        <!-- Let's design together -->
+        <div class="bg-zinc-900 text-white relative h-96 ">
+            <div class="flex m-5 p-5 mb-0 relative ">
+               <div>
+                <div class=" p-5 m-3 text-4xl ">Let's Design together Lorem ipsum dolor</div>
+                <div class=" p-5 m-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat distinctio cumque quae sit vel aspernatur earum? Quibusdam porro aspernatur </div>
+               </div>
+                <div>
+                    <div class=" p-4 text-3xl"> Lorem ipsum, dolor</div>
+                    <div class="p-4 m-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi dolores doloremque, necessitatibus voluptates reiciendis corporis.</div>
+                </div>
+                <div>
+                    <div class=" p-4 text-3xl">Lorem ipsum dolor </div>
+                    <div class="p-4 m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis esse vitae earum mollitia illo quo assumen.</div>
+                </div>
+                <div>
+                    <div class=" p-4 text-3xl">Lorem ipsum dolor sit amet conse</div>
+                    <div class="p-4 m-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis esse vitae earum mollitia illo quo assumen.</div>
+                </div>   
+            </div>
+            <div>
+                <div class=" float-left absolute ">
+                    <input type="text" class="underline">SUBSCRIBE
+                </div>
+            </div>
+        </div>
+
+
+
 
     </div>
-  
+<!-- <div class="indicator  right-10 bottom-1/2 z-50 flex flex-col gap-3 ">
+                <button class="w-3 h-3 rounded-full bg-blue-500" data-carousel-slide-to="0"></button>
+                <button class="w-3 h-3 rounded-full bg-blue-500" data-carousel-slide-to="1"></button>
+                <button class="w-3 h-3 rounded-full bg-blue-500" data-carousel-slide-to="2"></button>
+            </div> -->
 </body>
-<script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
     <script src="https://kit.fontawesome.com/552446ee58.js" crossorigin="anonymous"></script>
 </html>
